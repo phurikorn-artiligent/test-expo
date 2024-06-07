@@ -1,0 +1,17 @@
+{
+  "cli": {
+    "version": ">= 9.1.0"
+  },
+  "build": {
+    "testRelease": {
+      "android": {
+        "buildType": "apk",
+        "developmentClient": true,
+        "distribution":"internal"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
